@@ -1,3 +1,35 @@
-h1 {
-  color: salmon;
+h2 {
+  color: rgb(80, 80, 80);
+  margin: 0;
+}
+img {
+	height: 240px;
+	width: 220px;
+	padding: 5px;
+}
+button {
+	width: 200px;
+	height: 30px;
+	margin: 20px auto;
+}
+p {
+	font-size: 15px;
+}
+.top, .bottom {
+	text-align: center;
+}
+.top {
+	margin: 25px auto;
+}
+.imageone, .imagetwo, .imagethree, .imagefour, .imagefive, .imagesix {
+	position: relative;
+	display: inline-block;
+}
+.one, .two, .three, .four, .five, .six {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	font-size: 20px;
 }
