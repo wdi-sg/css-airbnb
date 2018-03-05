@@ -59,33 +59,48 @@ p {
   font-weight: bold;
   color: white;
   text-align: center;
-  /* justify-self: center; */
+  justify-self: center;
   align-self: center;
-  background-size: cover;
-  background-position:center;
-  background-repeat: no-repeat;
 }
 
 .guidebook-pic-1 {
-  background-image:url("../img/san-francisco.jpg");
+  background: center / cover no-repeat url("../img/san-francisco.jpg");
 }
 
 .guidebook-pic-2 {
-  background-image:url("../img/new-york.jpg");
+  background: center / cover no-repeat url("../img/new-york.jpg");
 }
 
 .guidebook-pic-3 {
-  background-image:url("../img/london.jpg");
+  background: center / cover no-repeat url("../img/london.jpg");
 }
 
 .weekend-pic-1 {
-  background-image:url("../img/napa.jpg");
+  background: center / cover no-repeat url("../img/napa.jpg");
 }
 
 .weekend-pic-2 {
-  background-image:url("../img/sonoma.jpg");
+  background: center / cover no-repeat url("../img/sonoma.jpg");
 }
 
 .weekend-pic-3 {
-  background-image:url("../img/san-francisco-2.jpg");
+  background: center / cover no-repeat url("../img/san-francisco-2.jpg");
+}
+
+@media only screen and (max-width: 900px) {
+  .content-container {
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-column-gap: 10px;
+    grid-row-gap: 20px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px 250px 250px 250px 50px 100px 250px 250px 250px 50px; */
+    align-content: space-around;
+  }
+
+  [class$="-header"], [class$="-more"] {
+  grid-column: 1 / 2;
+  text-align: center;
+}
 }
