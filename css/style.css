@@ -1,3 +1,106 @@
+:root {
+  --square-length: 200px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: rgb(224, 224, 224);
+}
+
 h1 {
-  color: salmon;
+  color: rgb(64,64,64);
+  margin: 0.25rem auto;
+}
+
+p {
+  color: gray;
+}
+
+.content-container {
+  width: 50%;
+  margin: 0 auto;
+  display: grid;
+  grid-column-gap: 10px;
+  grid-row-gap: 30px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 100px 200px 50px 100px 200px 50px;
+  align-content: space-around;
+}
+
+[class$="-header"], [class$="-more"] {
+  grid-column: 1 / 4;
+  text-align: center;
+}
+
+[class$="-header"] {
+  height: 100px;
+}
+
+[class$="-more"] {
+  height: 2rem;
+}
+
+[class$="-button"] {
+  background-color: white;
+  border: 1px solid gray;
+  font-weight: bold;
+  font-size: 0.9rem;
+  color:gray;
+  height: 2rem;
+  width: 15rem;
+  line-height: 2rem;
+  margin: 0 auto;
+}
+
+.guidebook-pic-1, .guidebook-pic-2, .guidebook-pic-3, .weekend-pic-1, .weekend-pic-2, .weekend-pic-3 {
+  width: var(--square-length);
+  height: var(--square-length);
+  line-height: var(--square-length);
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  justify-self: center;
+  align-self: center;
+}
+
+.guidebook-pic-1 {
+  background: center / cover no-repeat url("../img/san-francisco.jpg");
+}
+
+.guidebook-pic-2 {
+  background: center / cover no-repeat url("../img/new-york.jpg");
+}
+
+.guidebook-pic-3 {
+  background: center / cover no-repeat url("../img/london.jpg");
+}
+
+.weekend-pic-1 {
+  background: center / cover no-repeat url("../img/napa.jpg");
+}
+
+.weekend-pic-2 {
+  background: center / cover no-repeat url("../img/sonoma.jpg");
+}
+
+.weekend-pic-3 {
+  background: center / cover no-repeat url("../img/san-francisco-2.jpg");
+}
+
+@media only screen and (max-width: 900px) {
+  .content-container {
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-column-gap: 10px;
+    grid-row-gap: 20px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px 250px 250px 250px 50px 100px 250px 250px 250px 50px; */
+    align-content: space-around;
+  }
+
+  [class$="-header"], [class$="-more"] {
+  grid-column: 1 / 2;
+  text-align: center;
+}
 }
