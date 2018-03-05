@@ -44,6 +44,8 @@ p {
   background-color: white;
   border: 1px solid gray;
   font-weight: bold;
+  font-size: 0.9rem;
+  color:gray;
   height: 2rem;
   width: 15rem;
   line-height: 2rem;
