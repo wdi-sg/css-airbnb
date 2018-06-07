@@ -10,7 +10,7 @@ seeAll.forEach(function(seeAllEach) {
 })
 
 // select an array of all images
-var images = document.querySelectorAll(".card");
+let images = document.querySelectorAll(".card");
 
 let openLink = function() {
   window.open("https://www.google.com");
