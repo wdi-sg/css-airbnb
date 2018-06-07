@@ -1,3 +1,50 @@
-h1 {
-  color: salmon;
+body {
+  position: relative;
+  text-align: center;
+}
+
+.tag {
+  font-family: 'Open Sans', sans-serif;
+  color: #4d4d4d;
+}
+
+.tagline {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10px;
+  margin-bottom: 30px;
+}
+
+.see-all {
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  width: 200px;
+  padding: 5px;
+}
+
+.card {
+  display: inline-block;
+  margin-right: 20px;
+  margin-top: 20px;
+  line-height: 230px;
+}
+
+.card-text {
+  color: #fff;
+  font-weight: 600;
+  font-size: 17px;
+  margin-top: -230px;
+}
+
+#appStoreIcon {
+  width: 200px;
+}
+#footer {
+  color: #4d4d4d;
+  font-size: 15px;
+  background-color: transparent;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 50px;
+  text-align: center;
 }
