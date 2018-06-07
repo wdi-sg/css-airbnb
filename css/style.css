@@ -1,3 +1,152 @@
+* {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+	background-color: #f4f5f7;
+}
+
 h1 {
-  color: salmon;
+	color: #616263;
+	font-size: 20px;
+}
+
+p {
+	color: #616263;
+}
+
+div {
+	/*background-color: red;*/
+	width: 80%;
+	margin: 0 auto;
+	/*border: 1px solid black;*/
+}
+
+button {
+	
+}
+
+.row-1 {
+	height: 100px;
+	text-align: center;
+}
+
+.row-1-1 {
+	position: relative;
+	width: 100%;
+	top: 20px;
+}
+
+.row-1-1 p {
+	line-height: 0.1;
+}
+
+.row-2 {
+	height: 240px;
+}
+
+.row-2-1 {
+	height: 240px;
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.photo {
+	width: 100%;
+	margin-top: 50%;
+	color: white;
+	text-align: center;
+}
+
+.photo > h1 {
+	color: white;
+}
+
+.img-2-1 {
+	height: 240px;
+	width: 25%;
+	display: inline-block;
+	background-image: url("../img/san-francisco.jpg");
+	background-size: cover;
+}
+
+.img-2-2 {
+	height: 240px;
+	width: 25%;
+	display: inline-block;
+	background-image: url("../img/new-york.jpg");
+	background-size: cover;
+	margin-left: 30px;
+}
+
+.img-2-3 {
+	height: 240px;
+	width: 25%;
+	display: inline-block;
+	background-image: url("../img/london.jpg");
+	background-size: cover;
+	margin-left: 30px;
+}
+
+.row-3 {
+	height: 160px;
+	padding-top: 2%;
+}
+
+.row-3-1 {
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.row-3-1 p {
+	line-height: 0.1;
+}
+
+.button {
+	width: 25%;
+	margin: 20px auto;
+	height: 30px;
+	background-color: white;
+	line-height: 2;
+	font-weight: 600;
+	text-align: center;
+}
+
+.row-4 {
+	height: 240px;
+}
+
+.row-4-1 {
+	height: 240px;
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.img-4-1 {
+	height: 240px;
+	width: 25%;
+	display: inline-block;
+	background-image: url("../img/napa.jpg");
+	background-size: cover;
+}
+
+.img-4-2 {
+	height: 240px;
+	width: 25%;
+	display: inline-block;
+	background-image: url("../img/sonoma.jpg");
+	background-size: cover;
+	margin-left: 30px;
+}
+
+.img-4-3 {
+	height: 240px;
+	width: 25%;
+	display: inline-block;
+	background-image: url("../img/san-francisco-2.jpg");
+	background-size: cover;
+	margin-left: 30px;
 }
