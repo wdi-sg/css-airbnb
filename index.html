@@ -3,10 +3,75 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Signika" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <title>Hello Front-End</title>
 </head>
 <body>
-  <h1>Hello Front-End</h1>
+  <div class="container">
+      <h2 class="topHeader">
+        Meet Guidebooks
+      </h2>
+      <p class="subHeader">
+        Discover hundreds of local spots recommended by Airbnb hosts
+      </p>
+    <div class="row">
+      <div class="imgBlock sf" onclick="clickMe()">
+        <p class="imgText">
+          <a href="#">
+            San Francisco
+          </a>
+        </p>
+      </div>
+      <div class="imgBlock new-york" onclick="clickMe()">
+        <p class="imgText">
+          New York
+        </p>
+      </div>
+      <div onclick="clickMe()" class="imgBlock london">
+        <p class="imgText">
+          London
+        </p>
+      </div>
+    </div>
+
+    <div class="btmCTA">
+      <div class="ctaBtn" onclick="notReady()">
+        See All Guidebooks
+      </div>
+    </div>
+
+    <h2 class="topHeader">
+      Just for the Weekend
+    </h2>
+    <p class="subHeader">
+      Discover new, inspiring places close to home
+    </p>
+
+    <div class="row">
+      <div onclick="clickMe()" class="imgBlock napa">
+        <p class="imgText">
+          Napa
+        </p>
+      </div>
+      <div onclick="clickMe()" class="imgBlock sonoma">
+        <p class="imgText">
+          Sonoma
+        </p>
+      </div>
+      <div onclick="rick()" class="imgBlock sf2">
+        <p class="imgText">
+          San Franciso
+        </p>
+      </div>
+    </div>
+    <div class="btmCTA">
+      <div class="ctaBtn" onclick="notReady()">
+        See All Destinations
+      </div>
+    </div>
+    </div>
+  </div>
+  <script src="main.js" charset="utf-8"></script>
 </body>
 </html>
