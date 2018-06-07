@@ -1,3 +1,41 @@
 h1 {
   color: salmon;
 }
+
+.container {
+	text-align: center;
+	margin: 0 auto;
+}
+
+img {
+	width: 300px;
+	height: 300px;
+	
+}
+
+.image {
+	display: inline-block;
+	position: relative
+
+	
+}
+
+.imageContainer {
+/*	margin: 0 auto;
+	width: auto;*/
+
+}
+
+.centered {
+	position: absolute;
+    top: 50%;
+    margin: auto 120px;
+    color: white;
+
+}
+
+.centered1 {
+	position: absolute;
+    top: 50%;
+    margin: auto 120px;
+    color: white;
