@@ -53,6 +53,22 @@ a{
   font-size: 24px;
   text-shadow: 1px 1px 2px rgb(48, 48, 48)
 }
+
+@media (max-width: 400px){
+  .row{
+    display: block;
+  }
+  .imgBlock{
+    width: 100%;
+  }
+  .btmCTA{
+    max-width: 100%;
+  }
+  .imgText{
+    padding-top: 30%;
+    margin: 10px auto;
+  }
+}
 /* background images */
 .london{
   background-image: url('../img/london.jpg');
