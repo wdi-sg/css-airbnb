@@ -3,10 +3,162 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <title>Welcome To AirBnb</title>
+</head>
+<body>
+  <h3 class="tag">Meet Guidebooks</h3>
+  <p class="tagline">Discover hundreds of local spots recommended by Airbnb hosts</p>
+
+  <div class="container">
+    <div class="card-deck">
+      <div class="card">
+        <img class="card-img-top" src="img/san-francisco.jpg" alt="san-francisco" width="200" height="230">
+        <div class="card-block">
+<!--           <h4 class="card-title"><i class="fa fa-bicycle" aria-hidden="true"></i>
+    San Francisco</h4> -->
+          <p class="card-text">San Francisco</p>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="img/new-york.jpg" alt="ew-york" width="200" height="230">
+        <div class="card-block">
+<!--           <h4 class="card-title"><i class="fa fa-leaf" aria-hidden="true"></i>
+    New York</h4> -->
+          <p class="card-text">New York</p>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="img/london.jpg" alt="london" width="200" height="230">
+        <div class="card-block">
+<!--           <h4 class="card-title"><i class="fa fa-home" aria-hidden="true"></i>
+    London</h4> -->
+          <p class="card-text">London</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <button class="see-all">See All Guidebooks</button>
+
+  <h3 class="tag">Just for the weekend</h3>
+  <p class="tagline">Discover new, inspiring places close to home</p>
+
+  <div class="container">
+    <div class="card-deck">
+      <div class="card">
+        <img class="card-img-top" src="img/napa.jpg" alt="napa" width="200" height="230">
+        <div class="card-block">
+<!--           <h4 class="card-title"><i class="fa fa-bicycle" aria-hidden="true"></i>
+    Napa</h4> -->
+          <p class="card-text">Napa</p>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="img/sonoma.jpg" alt="sonoma" width="200" height="230">
+        <div class="card-block">
+<!--           <h4 class="card-title"><i class="fa fa-leaf" aria-hidden="true"></i>
+    Sonoma</h4> -->
+          <p class="card-text">Sonoma</p>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="img/san-francisco-2.jpg" alt="san-francisco-2" width="200" height="230">
+        <div class="card-block">
+<!--           <h4 class="card-title"><i class="fa fa-home" aria-hidden="true"></i>
+    San Francisco</h4> -->
+          <p class="card-text">San Francisco</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <button class="see-all">See All Destinations</button>
+
+<footer id="footer">
+<div class="row">
+    <p>Download The App!<p>
+    <p class="lead">Really, traveling is awesome.</p>
+    <p><a href=""><img id="appStoreIcon" src="img/appstore.gif" height="50"></a></p>
+</div>
+</footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script type=text/javascript src="script.js"></script>
+
+</body>
+</html>
+
+
+
+<!-- CK Example -->
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <title>Hello Front-End</title>
 </head>
 <body>
-  <h1>Hello Front-End</h1>
+  <div class="container">
+    <div class="section">
+      <div class="title">
+        <h1>
+          Meet Guidebooks
+        </h1>
+        <p class="subtitle">
+          Discover hundreds of local spots recommended by Airbnb hosts
+        </p>
+      </div>
+      <div class="img-row">
+        <div id="SF" class="location">
+          San Francisco
+        </div>
+        <div id="NY" class="location">
+          New York
+        </div>
+        <div id="London" class="location">
+          London
+        </div>
+      </div>
+      <div class="more-content">
+        <div class="btn-further">
+          See All Guidebooks
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="title">
+        <h1>
+          Just for the weekend
+        </h1>
+        <p class="subtitle">
+          Discover new, inspiring places close to home
+        </p>
+      </div>
+      <div class="img-row">
+        <div id="Napa" class="location">
+          Napa
+        </div>
+        <div id="Sonoma" class="location">
+          Sonoma
+        </div>
+        <div id="SF2" class="location">
+          San Francisco
+        </div>
+      </div>
+      <div class="more-content">
+        <div class="btn-further">
+          See All Destinations
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
-</html>
+</html> -->

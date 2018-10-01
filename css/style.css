@@ -1,3 +1,136 @@
-h1 {
-  color: salmon;
+body {
+  position: relative;
+  text-align: center;
 }
+
+.tag {
+  font-family: 'Open Sans', sans-serif;
+  color: #4d4d4d;
+}
+
+.tagline {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10px;
+  margin-bottom: 30px;
+}
+
+.see-all {
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  width: 200px;
+  padding: 5px;
+}
+
+.card {
+  display: inline-block;
+  margin-right: 20px;
+  margin-top: 20px;
+  line-height: 230px;
+}
+
+.card-text {
+  color: #fff;
+  font-weight: 600;
+  font-size: 17px;
+  margin-top: -230px;
+}
+
+#appStoreIcon {
+  width: 200px;
+}
+#footer {
+  color: #4d4d4d;
+  font-size: 15px;
+  background-color: transparent;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+/*CK Example
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(225, 225, 225);
+}
+
+h1 {
+  font-size: 1.5em;
+  margin: 0;
+}
+
+.subtitle {
+  font-size: 0.75em;
+  color: gray;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.title {
+  text-align: center;
+}
+
+.img-row {
+  text-align:center;
+}
+
+.location {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  background-position: top;
+  background-size: cover;
+  line-height: 200px;
+  text-align: center;
+  color: white;
+  font-weight: 600;
+  font-size: 1.5em;
+  margin: 0 4px;
+}
+
+.more-content {
+  padding: 10px 0 10px 0;
+}
+
+.btn-further {
+  border: 1px solid black;
+  border-radius: 2px;
+  text-align: center;
+  padding: 4px;
+  width: 300px;
+  background-color: white;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.btn-further:hover {
+  background-color: rgb(83, 83, 255);
+}
+
+#SF {
+  background-image: url('../img/san-francisco.jpg');
+}
+
+#NY {
+  background-image: url('../img/new-york.jpg');
+}
+
+#London {
+  background-image: url('../img/london.jpg');
+}
+
+#Napa {
+  background-image: url('../img/napa.jpg');
+}
+
+#Sonoma {
+  background-image: url('../img/sonoma.jpg');
+}
+
+#SF2 {
+  background-image: url('../img/san-francisco-2.jpg');
+}*/
